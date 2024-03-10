@@ -5,7 +5,7 @@
 <div align="center">
   <!-- Change your logo -->
   <a href="https://github.com/carloshmarques/gulp-preprocessor-website">
-    <img width="100%" src="https://i.imgur.com/SVvgxJF.png" alt="@carloshmarques/gulp-preprocessor-website's logo">
+    <img width="100%" src="https://i.imgur.com/rj1HPjW.png" alt="@carloshmarques/gulp-preprocessor-website's logo">
   </a>
   <br>
   <a href="https://github.com/carloshmarques/gulp-preprocessor-website/issues">
@@ -58,7 +58,7 @@
 
 <!-- Change your small logo -->
 <a href="https://github.com/carloshmarques/gulp preprocessor-website">
-  <img alt="@carloshmarques/gulp preprocessor-website's brand logo without text" align="right" src="https://i.imgur.com/3qK1sie.png" width="18%" />
+  <img alt="@carloshmarques/gulp preprocessor-website's brand logo without text" align="right" src="https://i.imgur.com/i8hCIzh.jpg" width="10%" />
 </a>
 
 
@@ -67,7 +67,7 @@ We are currently looking for new donators to help and maintain this project! ❤
 By donating, you will help the development of this project, and *you will be featured in this gulp-preprocessor-website's README.md*, so everyone can see your kindness and visit your content ⭐.
 
 <a href="https://github.com/sponsors/carloshmarques"> <!-- MODIFY THIS LINK TO YOUR MAIN DONATING SITE IF YOU ARE NOT IN THE GITHUB SPONSORS PROGRAM -->
-  <img src="https://img.shields.io/badge/Sponsor-carloshmarques/gulp preprocessor-website-blue?logo=github-sponsors&style=for-the-badge&color=red">
+  <img src="https://img.shields.io/badge/Sponsor-carloshmarques/carloshmarques-blue?logo=github-sponsors&style=for-the-badge&color=red">
 </a>
 
 <!-- LINK TO YOUR DONATING PAGES HERE -->
@@ -84,7 +84,7 @@ gulp-preprocessor-website was generated from *[Josee9988/project-template](https
 
 ---
 
-## 🎉 Was the "gulp-preprocessor-website"[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C[3~G[C[C[C[C[D[3~ P[C[C[C[C[C[C[C[C[C[C[C[3~ W[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[D[D[D[D[D[D helpful? Help us raise these numbers up
+## 🎉 Was the "gulp-preprocessor-website" helpful? Help us raise these numbers up
 
 [![GitHub followers](https://img.shields.io/github/followers/carloshmarques.svg?style=social)](https://github.com/carloshmarques)
 [![GitHub stars](https://img.shields.io/github/stars/carloshmarques/gulp-preprocessor-website.svg?style=social)](https://github.com/carloshmarques/gulp-preprocessor-website/stargazers)

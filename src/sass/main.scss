@@ -1,0 +1,40 @@
+@import "variables";
+@import "header"; 
+@import "cover";
+@import "footer";
+@import "features";
+@import "about";
+@import "contact";
+@import "news";
+
+
+
+
+
+
+
+
+/* Coded by Hydra projects, following the course of brad hussey on you tube,
+see: https://www.youtube.com/watch?v=69nEzHLy_tM&list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF&index=1,
+for more information
+All css goe's here, don't forget to import the other scss file's as it is on beginning of the file,
+in order to overwrite the boostrap css, place the link to the css file after the bootstrap link,
+in the head of the index.html pages
+*/
+
+
+html,
+
+body {
+    height: 100%;
+    background-color: $white;
+    color: $Blue;
+
+  
+}
+
+
+
+
+
+

@@ -1,8 +1,8 @@
 ###> carloshmarques/gulp-preprocessor-website ###
 
 ##### Folders #####
-build/
-dist/
+#build/
+#dist/
 node_modules/
 vendor/
 var/

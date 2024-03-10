@@ -1,0 +1,472 @@
+<!DOCTYPE html ><html lang="en">
+    <head> 
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Website, Title & Description for browser, SEO, search-engine purposes -->
+        <meta name="description" content=""/><!--add your website description here -->
+        <meta name="author" content=""/><!--add the website author here -->
+        <meta name="keywords" content=""/><!--add the website SEO keywords here -->
+        <!--Mobile viewport optimized(for cell-phones & smartphones) -->
+        <link rel="icon" href="img/png/hydra_logo.png" id="iconIeEdge" />
+        <title>Hydra Projects | Home</title> 
+        <!-- our project just needs Font Awesome Solid + Brands -->
+        <link rel="stylesheet" href="css/fontawesome/solid.min.css" > 
+        <link rel="stylesheet" href="css/fontawesome/fontawesome.min.css">
+        <link rel="stylesheet" href="css/fontawesome/brands.min.css">
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css"/>     
+        <link rel="stylesheet" href="css/main.css"/> 
+        <!--Place Modernizr script in the head, before anyother javascript file, for faster browser loading-->
+        <script src="js/modernizr.js"></script>
+        <!-- First try for the online version of jQuery-->
+	    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+	    <script>window.jQuery || document.write('<script src="js/assets/jquery/jquery-3.6.4.min.js"><\/script>')</script>
+        <!-- smooth sroll here for smmoth scrolling-->
+        <script src="js/masonry.pkgd.min.js"></script>  
+        <script src="js/assets/smoothscroll/smoothScroll.js"></script>
+    </head>
+    <body>
+        <!-- All code goes from this poin on -->
+        <section id="cover"class="smoothScroll" >
+            <div id="cover-caption">               
+                </div class="container" >
+                    <div class = "col-sm-10 offset-sm-1">
+                        <h1 class="display-3"> Welcome to the cover section</h1>
+                        <p> A new html coded website. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <br>
+                        <a href="#home" class="btn btn-success btn-sm" role="button">&darr; Start here</a>    
+                    </div>                 
+                </div>              
+            </div>       
+        </section> 
+        <!-- All code of the heder goes from this poin on -->
+        <section id="header" class="smoothScroll">
+            <header>                                     
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-full " id="home">  
+                    <div class="container-fluid">                        
+                        <a class="navbar-brand" href="index.html"><span><img src="img\png\hydra_logo.png" alt="Your Logo" id="myLogo"/></span> Hydra Projects</a> 
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="nav">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#home">Home<span class="sr-omly">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#features">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>                             
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#news">News</a>
+                                </li>                                                          
+                            </ul>                                                                                                    
+                        </div>                               
+                    </div>
+                </nav>   
+            </header>            
+        </section>    
+         <!-- All code of carousel goes from this poin on -->  
+        <section id="carousel" class="smoothScroll">
+            <!-- All code of the carousel indicators goes from this poin on -->
+            <div id="carousel-home" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <!-- All code of the carousel slide's goes from this poin on -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/jpg/woman-camera.jpg" class="d-block w-100" alt="woman taking picture">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>A women holding a camara.</h5>
+                      <p>She's probably taking a picture!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/jpg/hearthand.jpg" class="d-block w-100" alt="Two hands making a heart">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Capture the sun with love!</h5>
+                      <p>With our own hands.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/jpg/spiderweb.jpg" class="d-block w-100" alt="A very wet spider web">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Down come the rain.</h5>
+                      <p>And washed the webspider dust!</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- All code of the carousel control's,(prev & next), goes from this poin on -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- All code of the section features, goes from this poin on -->
+        <section id="features" class="smoothScroll">
+            <div class="section-content">
+                <div class="container">
+                    <h1>What we do!</h1>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat corporis officiis aspernatur cupiditate perspiciatis aperiam, itaque iste quos pariatur harum vel ea vero porro doloribus quod ad adipisci accusantium autem.</p>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card-group">
+                                <div class="card">  
+                                    <div class="card-header">
+                                        <h2>Featured</h2>
+                                    </div>                                                          
+                                    <div class="card-body">                                                                                  
+                                        <img src="img/jpg/chalkboard.jpg" class="card-img-top" alt="a chalkboard">                                
+                                        <h4 class="card-title"> Strategy &amp; Planning</h4>
+                                        <h6 class="card-subtitle"> Support card subtitle</h6>                                        
+                                    </div>  
+                                    <div class="card-body">                                    
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis fugit molestias dignissimos, id hic officiis quam possimus tenetur minima voluptatibus accusantium, numquam voluptates velit, dicta maiores dolor quo expedita. </p>
+                                        <button type="button" class="btn btn-success btn-sm float-end" data-toggle="modal" data-target="#myModal">learn more</button>
+                                    </div>  
+                                </div>                           
+                                <div class="card">
+                                    <div class="card-header ">
+                                        <h2>Featured</h2>
+                                    </div> 
+                                    <div class="card-body">
+                                        <img src="img/jpg/working.jpg"  class="card-img-top"  alt="working on a laptop">
+                                        <h4 class="card-title">Creative &amp; Design</h4>
+                                        <h6 class="card-subtitle">Support card subtitle</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis fugit molestias dignissimos, id hic officiis quam possimus tenetur minima voluptatibus accusantium, numquam voluptates velit, dicta maiores dolor quo expedita.</p>
+                                        <button type="button" class="btn btn-success btn-sm float-end" data-toggle="modal" data-target="#myModal">learn more</button>
+                                    </div>
+                                </div>  
+                                <div class="card">
+                                    <div class="card-header ">
+                                        <h2>Featured</h2>
+                                    </div> 
+                                    <div class="card-body">
+                                        <img src="img/jpg/programming.jpg" class="card-img-top" alt="fingers typing on a keyboard">
+                                        <h4 class="card-title">Programming &amp; Technical</h4>
+                                        <h6 class="card-subtitle">Support card subtitle</h6>                                      
+                                    </div>                                   
+                                    <div class="card-body">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis fugit molestias dignissimos, id hic officiis quam possimus tenetur minima voluptatibus accusantium.</p>
+                                        <button type="button" class="btn btn-success btn-sm float-end" data-toggle="modal" data-target="#myModal">learn more</button>
+                                    </div>
+                                </div>                                                                                     
+                            </div>                                              
+                        </div>                                                 
+                    </div>                                          
+                </div>
+            </div>
+        </section> 
+        <!-- All code from the about section, goes from this poin on -->
+        <section id="about" class="smoothScroll">
+            <div class="section-content">
+                <div class="container">
+                    <div class="col-md-6">
+                        <div class="about-text">
+                            <h3>About Me</h3>
+                            <p class="lead">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Nobis similique consequatur nulla modi vitae incidunt, 
+                                eos sed, beatae, tenetur quae corporis quidem. 
+                                Consequatur odit eaque debitis fuga, 
+                                doloremque facere dignissimos.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ratione ipsum quaerat delectus distinctio quia at deleniti placeat porro debitis fugiat consequatur a consectetur dolore provident, 
+                                reiciendis, 
+                                sapiente facere itaque rerum?<a href="#contact" class="btn btn-sm btn-secondary-outline float-end">Contact us</a> 
+                            </p>
+                            <h5>Follow me on the web</h5>
+                            <a href="https://www.twitter.com/" target="_blank" class="btn btn-sm btn-secondary-outline">Twitter</a>
+                            <a href="https://www.facebook.com/" target="_blank" class="btn btn-sm btn-secondary-outline">Facebook</a>
+                            <a href="https://www.youtube.com/" target="_blank" class="btn btn-sm btn-secondary-outline">Youtube</a>
+                            <a href="https://www.linkedin.com/" target="_blank" class="btn btn-secondary-outline">Linkedin</a>
+                            <a href="#home" class="btn btn-sm btn-secondary-outline float-end">Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <br> 
+        </section>
+        <!-- All code from the news section, goes from this poin on -->
+        <section id="news" class="smoothScroll">
+            <div class="section-content">
+                <div class="container">  
+                    <h3>What's the latest</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore blanditiis consequuntur repudiandae quidem consectetur recusandae, unde quibusdam natus ullam, quo earum expedita libero exercitationem sapiente ratione. Optio, alias debitis. A!</p>
+                    <script src="js/masonry.pkgd.min.js"></script> 
+                    <div class="row row-cols-1 row-cols-md-3 g-4" data-masonry='{"percentPosition": true }'> <!-- see https://getbootstrap.com/docs/5.0/examples/masonry/ --> 
+                        <!-- This only works if add the script from https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js at beganning of the page
+                        or at the end of the body, i put it both place's-->                  
+                        <div class="col" >
+                            <div class="card-body ">
+                                <img src="img/jpg/woman-camera.jpg" class="card-img-top" alt="A women with a camera">
+                                <div class="card-body"> 
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div> 
+                            <div class="card-body ">
+                                <blockquote class="card-body card-blockquote">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <footer>
+                                        <small class="text-muted">
+                                        Someone famous in <cite title="Source Title">Source Title</cite>
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>                       
+                        </div>                   
+                        <div class="col">
+                            <div class="card-body">
+                                <img src="img/jpg/stars.jpg" class="card-img-top" alt="landscape photography of stars">
+                                <div class="card-body">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p>This is a longer card with supporting text below as a natural lead-in to additional content.</p> 
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>                                      
+                                </div>
+                                <div class="card-body text-white bg-primary alert-primary text-xs-center">
+                                    <blockquote class="card-blockquote">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                                        <footer>
+                                            <small>
+                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                            </small>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <div class="card-body"> 
+                                    <h5 class="card-title">Card title</h5>                                   
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div> 
+                                <div class="card-body">
+                                    <img src="img/jpg/computer.jpg" alt="" class="card-img-top">
+                                </div> 
+                                <div class="card-body text-white bg-warning alert-warning">
+                                    <blockquote class="card-body card-blockquote">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                        <footer>
+                                            <small class="text-muted">
+                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                            </small>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col">
+                            <div class="card-body ">
+                                <img src="img/jpg/banjo.jpg" class="card-img-top" alt="A women with a camera">
+                                <div class="card-body"> 
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col">
+                            <div class="card-body ">
+                                <blockquote class="card-body card-blockquote">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <footer>
+                                        <small class="text-muted">
+                                        Someone famous at <cite title="Source Title">Source Title</cite>
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>              
+                        </div>                                                        
+                    </div>  
+                    <br>
+                    <hr>           
+                    <nav>                        
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>                    
+                </div>                              
+            </div>
+        </section> 
+        <section id="contact" class="smoothScroll">
+            <div class="section-content">
+                <div class="container">
+                    <div class="about-contact"> 
+                        <div class="row">
+                            <div class="col cols-md-6">
+                                <h2>Contact us with a message</h2>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Nobis similique consequatur nulla modi vitae incidunt, 
+                                    eos sed, beatae, tenetur quae corporis quidem. 
+                                    Consequatur odit eaque debitis fuga, 
+                                    doloremque facere dignissimos.
+                                </p>
+                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ratione ipsum quaerat delectus distinctio quia at deleniti placeat porro debitis fugiat consequatur a consectetur dolore provident, 
+                                    reiciendis, 
+                                    sapiente facere itaque rerum?
+                                </p>
+                                <address><h6>Send us a message!</h6> 
+                                    Rua de tal, nº2, 1-block-A<br>
+                                    0800-111-Planet earth.
+                                    <br>email: <a href="mailto:contact@example.com">contact@example.com</a><br>
+                                    Tlm: <a href="tel:+351 000000000p100">(+351)000000000-100</a>
+                                </address>  
+                            </div>
+                            <div class="col cols-md-6">
+                                <!-- Bootstrap 5 starter form -->
+                                <form id="contactForm" data-sb-form-api-token="API_TOKEN"> 
+                                <!-- Sign in at "https://startbootstrap.com/solution/contact-forms".Create a Token, this as costs,  after replace API_TOKEN with your token-->                    
+                                <!-- Name input -->
+                                <div class="mb-3">
+                                    <label class="form-label" for="name">Name</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                                </div>                          
+                                <!-- Email address input -->
+                                <div class="mb-3">
+                                    <label class="form-label" for="emailAddress">Email Address</label>
+                                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                                </div>                           
+                                <!-- Message input -->
+                                <div class="mb-3">
+                                    <label class="form-label" for="message">Message</label>
+                                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                                </div>                         
+                                <!-- Form submissions success message -->
+                                <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3">Form submission successful!</div>
+                                </div>                          
+                                <!-- Form submissions error message -->
+                                <div class="d-none" id="submitErrorMessage">
+                                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                                </div> 
+                                
+                                <!-- Form submit button -->    
+                                <button class="btn btn-primary btn-md float-end disabled" id="submitButton" type="submit">Submit</button>   
+                                <!-- At this point you can test the form, 
+                                    but the submission is not going to be sending anywhere. 
+                                    The final step is to sign up for an SB Forms API token on Start Bootstrap "https://startbootstrap.com/solution/contact-forms". after replace API_TOKEN with your token-->                  
+                                <!-- Form submit button -->                           
+                                </form>                  
+                                <!-- SB Forms JS -->
+                                <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+                            </div>                           
+                        </div>
+                    </div>
+                </div> 
+            </div>         
+        </section>       
+        <footer id='footer' class="smoothScroll">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <p>Copyright &copy;                   
+                            <script> var CurrentYear = new Date().getFullYear()
+                                document.write(CurrentYear)
+                            </script> Hydra Projects
+                        </p> 
+                        <p>Coded by <a href="https://carlosmanuelhortam.wixsite.com/hydraprojects" target="_blank">Carlos Marques</a></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul class="list-unstyled">
+                            <li><a href="#home" class="smoothScroll">Home</a></li>
+                            <li><a href="#features" class="smoothScroll">Features</a></li>
+                            <li><a href="#about" class="smoothScroll">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#news"class="smoothScroll" >News</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                            <li><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <address><h6>Adress & Contact</h6> 
+                            Rua de tal, nº2, 1-block-A<br>
+                            0800-111-Planet earth.
+                            <br>email: <a href="mailto:contact@example.com">contact@example.com</a><br>
+                            Tlm: <a href="tel:+351 932477757p100">(+351)932477557-100</a>
+                        </address>  
+                    </div>
+                </div>
+            </div>    
+        </footer>   
+    <!-- Place all your script links athe end of the body -->
+    <script src="js/main.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/assets/smoothscroll/smoothScroll.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script> 
+    <script src="js/assets/jquery/jquery-3.6.4.min.js"></script>
+    <script src="js/assets/bootstrap/bootstrap.min.js"></script> 
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+    </script>      
+    </body>
+</html>

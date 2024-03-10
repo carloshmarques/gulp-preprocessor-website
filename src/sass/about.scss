@@ -1,0 +1,20 @@
+/*Css of the about section here*/
+@import "variables";
+
+#about {
+    background: url('../img/jpg/girlincar.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: $white;
+    padding: 1.875rem;
+ 
+    a{
+        color: $bourbon
+    }
+
+}

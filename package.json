@@ -1,0 +1,42 @@
+{
+  "name": "gulp-preprocessor-website",
+  "version": "1.0.0",
+  "description": "Website built with gulp processor",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:carloshmarques/gulp-preprocessor-website.git"
+  },
+  "keywords": [
+    "gulp",
+    "browsersync",
+    "webpages",
+    "learning",
+    "sass",
+    "website"
+  ],
+  "author": "Carlos Marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloshmarques/gulp-preprocessor-website/issues"
+  },
+  "homepage": "https://github.com/carloshmarques/gulp-preprocessor-website/blob/master/README.md",
+  "devDependencies": {
+    "browser-sync": "^2.29.0",
+    "gulp": "^4.0.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-modernizr": "^4.0.4",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.59.3"
+  }
+}

@@ -1,0 +1,19 @@
+
+
+
+
+/*Css of the cover section here*/
+
+#cover {
+    background: #222 url("../img/jpg/stars.jpg ") center center no-repeat;
+    background-size: cover;
+    color: $Gold;
+    height: 100%;  
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}

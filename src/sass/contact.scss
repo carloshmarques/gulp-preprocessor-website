@@ -1,0 +1,23 @@
+/*Css of the contact section here*/
+@import "variables";
+
+#contact {
+    background: url('../img/jpg/gratisography-239.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+    
+  
+
+}
+
+.about-contact {
+    background: rgba(0,0,0,0.8);
+    color: $white;
+    padding: 1.875rem;
+    
+ 
+    a{
+        color: $bourbon
+    }
+
+}
